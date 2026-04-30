@@ -1,0 +1,21 @@
+# Fortran build artifacts
+*.mod
+*.out
+*.o
+*.exe
+*.log
+*.lst
+*.dat
+
+# Editor files
+*~
+*.swp
+.DS_Store
+_gitmsg.saved.txt
+
+# FPM build directory
+/build/
+
+# Emacs auto-save / lock files
+\#*#
+.#*

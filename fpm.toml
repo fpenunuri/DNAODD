@@ -1,0 +1,14 @@
+name = "DNAODD"
+version = "0.1.0"
+license = "MIT"
+author = "Francisco Pe~nu~nuri"
+maintainer = "frp7000@gmail.com"
+description = "Generalized dual numbers for efficient computation of arbitrary-order directional derivatives in multiple directions (FPM compatible)."
+
+[build]
+auto-executables = true
+auto-tests = false
+
+[preprocess]
+[preprocess.cpp]
+

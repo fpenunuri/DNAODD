@@ -111,9 +111,3 @@ fpm run RCR_KQs
 
 This repository is under active development and is intended to support a
 research article currently in preparation and submission.
-
-------------------------------------------------------------------------
-
-## License
-
-MIT License

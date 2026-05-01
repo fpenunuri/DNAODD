@@ -5,7 +5,7 @@ program main
   integer :: n
   type(term_t), allocatable :: terms(:)
 
-  write(*,'(a)') 'nd:'
+  write(*,'(a)') 'nd (order):'
   read(*,*) n
 
   terms = generate_fdb_bell(n)

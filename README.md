@@ -90,18 +90,6 @@ fpm run RCR_KQs
 
 ------------------------------------------------------------------------
 
-## Relation to the Paper
-
-This repository supports the results presented in the article:
-
-"Efficient Computation of Arbitrary-Order Directional Derivatives in
-Multiple Directions via Generalized Dual Numbers"
-
-The code provides implementations and examples used to validate the
-proposed methodology.
-
-------------------------------------------------------------------------
-
 ## Status
 
 This repository is under active development and is intended to support a
@@ -110,5 +98,5 @@ research article currently in preparation/submission.
 ------------------------------------------------------------------------
 
 ## License
+MIT license
 
-(Add a license here, e.g., MIT, BSD, GPL)

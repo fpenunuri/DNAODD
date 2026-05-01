@@ -20,18 +20,18 @@ automatic differentiation.
 
 ## 📁 Project Structure
 
--   `src/` --- Fortran source modules\
--   `app/` --- Executable programs\
+-   `src/` --- Fortran source modules
+-   `app/` --- Executable programs
 -   `fpm.toml` --- Project configuration file
 
 ------------------------------------------------------------------------
 
 ## 📦 Requirements
 
--   A Fortran compiler (e.g., `gfortran`, `ifx`)\
+-   A Fortran compiler (e.g., `gfortran`, `ifx`)
 -   A recent version of `fpm`
 
-To install `fpm`, visit:\
+To install `fpm`, visit:
 👉 https://github.com/fortran-lang/fpm
 
 ------------------------------------------------------------------------

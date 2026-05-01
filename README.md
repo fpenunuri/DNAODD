@@ -16,6 +16,10 @@ directions. The approach is designed to be efficient and scalable,
 making it suitable for applications in kinematics, optimization, and
 automatic differentiation.
 
+The implementation supports the computation of directional derivatives
+of arbitrary order along multiple independent directions, based on a
+generalized dual number algebra.
+
 ------------------------------------------------------------------------
 
 ## 📁 Project Structure
@@ -40,29 +44,61 @@ To install `fpm`, visit:
 
 From the project root:
 
-    FPM_FC=ifx fpm build
+``` bash
+FPM_FC=ifx fpm build
+```
+
+### Quadruple precision
+
+To enable quadruple precision (`real128`), compile with:
+
+``` bash
+fpm run --flag "-DUSE_REAL128" <executable_name>
+```
+
+For example:
+
+``` bash
+fpm run --flag "-DUSE_REAL128" partialD_fun
+```
 
 ------------------------------------------------------------------------
 
 ## ▶️ Running Examples
 
-By default, `MAX_ORDER_DUALZN = 5`. The example `EA1` requires **at
-least 7**:
+By default, `MAX_ORDER_DUALZN = 5`.
+The example `EA1` requires a minimum order of 7:
 
-    fpm run --flag "-DMAX_ORDER_DUALZN=7" EA1
+``` bash
+fpm run --flag "-DMAX_ORDER_DUALZN=7" EA1
+```
 
-Other examples can be executed directly. For instance:
+Other examples can be executed directly, for instance:
 
-    fpm run RCR_KQs
+``` bash
+fpm run RCR_KQs
+```
 
 ------------------------------------------------------------------------
 
 ## Notes
 
 -   The maximum derivative order is controlled at compile time via the
-    `MAX_ORDER_DUALZN` flag.\
+    `MAX_ORDER_DUALZN` flag.
 -   Increasing this value allows higher-order derivatives but may
     increase memory usage and computational cost.
+
+------------------------------------------------------------------------
+
+## Relation to the Paper
+
+This repository supports the results presented in the article:
+
+"Efficient Computation of Arbitrary-Order Directional Derivatives in
+Multiple Directions via Generalized Dual Numbers"
+
+The code provides implementations and examples used to validate the
+proposed methodology.
 
 ------------------------------------------------------------------------
 
@@ -73,3 +109,6 @@ research article currently in preparation/submission.
 
 ------------------------------------------------------------------------
 
+## License
+
+(Add a license here, e.g., MIT, BSD, GPL)

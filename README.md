@@ -1,6 +1,7 @@
 # DNAODD
 
-## Generalized dual numbers for efficient computation of arbitrary-order directional derivatives in multiple directions
+## Generalized dual numbers for efficient computation of arbitrary-order
+directional derivatives in multiple directions
 
 This repository provides a Fortran implementation for the efficient
 computation of arbitrary-order directional derivatives in multiple

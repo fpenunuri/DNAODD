@@ -24,9 +24,10 @@ generalized dual number algebra.
 
 ## 📁 Project Structure
 
-- `src/` --- Fortran source modules  
-- `app/` --- Executable programs  
-- `fpm.toml` --- Project configuration file  
+- `src/` --- Fortran source modules
+- `app/` --- Executable programs
+- `docs/` --- Additional documentation and API descriptions
+- `fpm.toml` --- Project configuration file
 
 ------------------------------------------------------------------------
 
